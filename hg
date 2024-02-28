@@ -1,0 +1,41 @@
+void nhap(char k, int p, int q)
+{
+	int i, j, t;
+	for (i = 0; i < p; i++)
+	{
+		cout << "Nhap cac phan tu hang thu " << i + 1 << ":\n";
+		for (j = 0; j < q; j++)
+		{
+			cout << k << "[" << i + 1 << "," << j + 1 << "]=";
+			cin >> t;
+			switch (k)
+			{
+				case 'a':
+					a[i][j] = t;
+					break;
+				case 'b':
+					b[i][j] = t;
+			}
+		}
+	}
+}void nhap(char k, int p, int q)
+{
+	int i, j, t;
+	for (i = 0; i < p; i++)
+	{
+		cout << "Nhap cac phan tu hang thu " << i + 1 << ":\n";
+		for (j = 0; j < q; j++)
+		{
+			cout << k << "[" << i + 1 << "," << j + 1 << "]=";
+			cin >> t;
+			switch (k)
+			{
+				case 'a':
+					a[i][j] = t;
+					break;
+				case 'b':
+					b[i][j] = t;
+			}
+		}
+	}
+}
